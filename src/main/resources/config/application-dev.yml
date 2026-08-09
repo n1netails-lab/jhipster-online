@@ -116,11 +116,14 @@ jhipster:
 # https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
-#application:
+application:
+  jhipster-cmd:
+    cmd: 'C:\Users\shahi\AppData\Roaming\npm\jhipster.cmd'
+    timeout: 120
+  npm-cmd:
+    cmd: 'C:\Users\shahi\AppData\Roaming\npm\npm.cmd'
+    timeout: 120
 #    tmp-folder: /tmp
-#    jhipster-cmd:
-#        cmd: XXX
-#        timeout: 120
 #    github:
 #        host: https://github.com
 #        client-id: XXX
